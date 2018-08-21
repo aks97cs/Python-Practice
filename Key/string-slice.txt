@@ -1,0 +1,14 @@
+Attempting to use an index that is too large will result in an error:
+
+>>>
+>>> word[42]  # the word only has 6 characters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+However, out of range slice indexes are handled gracefully when used for slicing:
+
+>>>
+>>> word[4:42]
+'on'
+>>> word[42:]
+''
