@@ -1,0 +1,18 @@
+
+Operator	Description
+lambda	Lambda Expression
+or	Boolean OR
+and	Boolean AND
+not x	Boolean NOT
+in, not in	Membership tests
+is, is not	Identity tests
+<, <=, >, >=, !=, ==	Comparisons
+|	Bitwise OR
+^	Bitwise XOR
+&	Bitwise AND
+<<, >>	Shifts
++, -	Addition and subtraction
+*, /, %	Multiplication, Division and Remainder
++x, -x	Positive, Negative
+~x	Bitwise NOT
+**	Exponentiation
